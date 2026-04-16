@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOP Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <section id="welcome-container">
+        <h1>WELCOME TO THE ALMIGHTY OOP QUIZ</h1>
+        <button id="start-btn">Start Quiz</button>
+    </section>
+    <section id="quiz-container" class="hidden">
+        <h3>...think carefully...</h3>
+        <div id="info-container">
+            <span id="question-number">Question 1</span>
+         </div>
+        <div id="question-container">
+            <p id="question-text"></p>
+            <div id="choices-container"></div>
+            <p id="wrong-answer-msg" class="hidden">Wrong answer. Go back studying!!!</p>
+        </div>
+        <span id="score"></span>
+    </section>
+    <section id="result-container" class="hidden">
+        <h1>Quiz Completed!</h1>
+        <p id="final-score"></p>
+        <button id="restart-btn">Restart Quiz</button>
+    </section>
+    <script src="quiz.js"></script>
+</body>
+</html>
